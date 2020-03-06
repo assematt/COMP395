@@ -8,10 +8,22 @@ using Random = UnityEngine.Random;
 
 public class GameController : MonoBehaviour
 {
+    // Toggles the time scale between 1 and 0.7
+    // whenever the user hits the Fire1 button.
+    /// <summary>
+    /// 
+    /// </summary>
+    private float fixedDeltaTime;
+
+    /// <summary>
+    /// Speed of the simulation
+    /// </summary>
+    public float timeScale { get; private set; } = 1f;
+
     /// <summary>
     /// How many agent will be spawned per second?
     /// </summary>
-    public float arrivalRate = 1f;
+    public float arrivalRate = 20f / 60f;
 
     /// <summary>
     /// Reference to the clerk prefab
@@ -39,6 +51,11 @@ public class GameController : MonoBehaviour
     public CounterLine[] counters;
 
     /// <summary>
+    /// 
+    /// </summary>
+    public List<CustomerController> _customers = new List<CustomerController>();
+
+    /// <summary>
     /// The minimum service time
     /// </summary>
     public float minServiceTime = 1;
@@ -47,7 +64,12 @@ public class GameController : MonoBehaviour
     /// The maximum service time
     /// </summary>
     public float maxServiceTime = 3;
-    
+
+    private void Awake()
+    {
+        this.fixedDeltaTime = Time.fixedDeltaTime;
+    }
+
     // Start is called before the first frame update
     void Start()
     {
@@ -61,7 +83,7 @@ public class GameController : MonoBehaviour
             if (arrivalRate == 0f)
                 continue;
 
-            yield return new WaitForSeconds((1f / arrivalRate) / Time.timeScale);
+            yield return new WaitForSeconds((1f / arrivalRate) / timeScale);
 
             var newCustomer = Instantiate(customerPrefab, entryPoint.position, Quaternion.identity).GetComponent<CustomerController>();
             newCustomer.serviceTime = Random.Range(minServiceTime, maxServiceTime);
@@ -75,7 +97,7 @@ public class GameController : MonoBehaviour
             newCustomer.AssignLine(ref assignedLine);
             newCustomer.SetExitPosition(exitPoint.position);
 
-            yield return null;
+            _customers.Add(newCustomer);
         }
     }
 
@@ -86,7 +108,11 @@ public class GameController : MonoBehaviour
 
     public void OnTimeScaleChanged(Slider slider)
     {
-        Time.timeScale = slider.value;
+        timeScale = slider.value;
+
+        Time.timeScale = timeScale;
+
+        Time.fixedDeltaTime = this.fixedDeltaTime * Time.timeScale;
     }
 
     public void OnMinServiceTimeChanged(Slider slider)

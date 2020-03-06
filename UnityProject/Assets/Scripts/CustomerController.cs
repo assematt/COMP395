@@ -9,6 +9,7 @@ public class CustomerController : MonoBehaviour
     public enum State
     {
         Spawned,
+        Moving,
         InLine,
         Ordering,
         Leaving
@@ -23,10 +24,10 @@ public class CustomerController : MonoBehaviour
     private State _currentState;
 
     public LayerMask agentMask;
-    public float _lineDistance = 2f;
+    public float _lineDistance = 0f;
     public float serviceTime;
     public GameController gameController;
-
+    
     // Start is called before the first frame update
     void Start()
     {
@@ -43,6 +44,8 @@ public class CustomerController : MonoBehaviour
             case State.Spawned:
                 OnSpawned();
                 break;
+            case State.Moving:
+                break;
             case State.InLine:
                 OnInLine();
                 break;
@@ -50,11 +53,17 @@ public class CustomerController : MonoBehaviour
                 OnOrdering();
                 break;
             case State.Leaving:
+                gameObject.layer = 1 << LayerMask.NameToLayer("Default");
                 OnLeaving();
                 break;
             default:
                 throw new ArgumentOutOfRangeException(nameof(_currentState), _currentState, null);
         }
+
+        //_navMeshAgent.speed = 3.5f * Time.timeScale;
+        //_navMeshAgent.angularSpeed = 120f * Time.timeScale;
+        //_navMeshAgent.acceleration = 8f * Time.timeScale;
+        //Debug.Log(_navMeshAgent.speed);
     }
 
     public void SwitchState(State newState)
@@ -66,9 +75,12 @@ public class CustomerController : MonoBehaviour
             case State.Spawned:
                 _navMeshAgent.SetDestination(_assignedLine.counterTransform.position);
                 break;
+            case State.Moving:
+                break;
             case State.InLine:
                 break;
             case State.Ordering:
+                _navMeshAgent.isStopped = false;
                 break;
             case State.Leaving:
                 _assignedLine.customerInLine--;
@@ -94,13 +106,20 @@ public class CustomerController : MonoBehaviour
         if (_navMeshAgent.pathPending)
             return;
 
-        SwitchState(State.InLine);
+        SwitchState(State.Moving);
+    }
+
+    private void OnMoving()
+    {
+        
     }
 
     private void OnInLine()
     {
-        _navMeshAgent.isStopped = Physics.BoxCast(transform.position, Vector3.one, transform.forward, Quaternion.identity, _lineDistance,
+        _navMeshAgent.isStopped = Physics.BoxCast(transform.position + (transform.forward * 1.5f), Vector3.one / 2, transform.forward, Quaternion.identity, _lineDistance,
             agentMask);
+
+        ExtDebug.DrawBoxCastBox(transform.position + (transform.forward * 1.5f), Vector3.one / 2, Quaternion.identity, transform.forward, _lineDistance, _navMeshAgent.isStopped ? Color.red : Color.green);
 
         if (_navMeshAgent.remainingDistance < 0.2f)
         {
@@ -122,15 +141,27 @@ public class CustomerController : MonoBehaviour
 
     private void OnLeaving()
     {
-        if (_navMeshAgent.pathPending == false && _navMeshAgent.remainingDistance < 0.2f)
+        if (_navMeshAgent.pathPending == false && _navMeshAgent.remainingDistance < 0.2f * Time.timeScale)
         {
             Destroy(gameObject);
         }
     }
 
-    private void OnDrawGizmosSelected()
+    private void OnDrawGizmos()
     {
-        Gizmos.DrawRay(transform.position, transform.forward * _lineDistance);
-        Gizmos.color = _navMeshAgent.isStopped ? Color.red : Color.green;
+        if (_currentState != State.InLine)
+            return;
+
+        //Gizmos.color = _navMeshAgent.isStopped ? Color.red : Color.green;
+        //Gizmos.DrawRay(transform.position, transform.forward * _lineDistance);
+    }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.CompareTag("Doors") && _currentState == State.Moving)
+        {
+            SwitchState(State.InLine);
+            Debug.Log("Agent onLine now");
+        }
     }
 }

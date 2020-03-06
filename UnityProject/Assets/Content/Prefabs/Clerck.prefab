@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 8713423343634235431}
   - component: {fileID: 3970601312468617889}
   - component: {fileID: 6696967633059704917}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: Eye
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -105,7 +105,7 @@ GameObject:
   - component: {fileID: 5834717777763425930}
   - component: {fileID: 4319411406044047060}
   - component: {fileID: 8701174516392428291}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: Pants
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -309,7 +309,7 @@ GameObject:
   - component: {fileID: 8374776637368740628}
   - component: {fileID: 8087358185473069611}
   - component: {fileID: 8434110845527731358}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: Eye
   m_TagString: Untagged
   m_Icon: {fileID: 0}
