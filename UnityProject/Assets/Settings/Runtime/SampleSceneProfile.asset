@@ -96,10 +96,10 @@ MonoBehaviour:
   m_Name: SampleSceneProfile
   m_EditorClassIdentifier: 
   components:
-  - {fileID: 849379129802519247}
   - {fileID: -7893295128165547882}
   - {fileID: -7011558710299706105}
---- !u!114 &849379129802519247
+  - {fileID: 813829238999665805}
+--- !u!114 &813829238999665805
 MonoBehaviour:
   m_ObjectHideFlags: 3
   m_CorrespondingSourceObject: {fileID: 0}
