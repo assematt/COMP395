@@ -1,0 +1,609 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 201577b8145a6b648850b78fec017e1f, type: 3}
+  m_Name: FlagsDatabase
+  m_EditorClassIdentifier: 
+  flags:
+  - flagSprite: {fileID: -7675400051886722198, guid: af908e9e3e4c1c14d9e0aa66253b6f6a,
+      type: 3}
+    flagCountry: Afghanistan
+  - flagSprite: {fileID: 6796481734771964083, guid: af908e9e3e4c1c14d9e0aa66253b6f6a,
+      type: 3}
+    flagCountry: Albania
+  - flagSprite: {fileID: -8925693405483304466, guid: af908e9e3e4c1c14d9e0aa66253b6f6a,
+      type: 3}
+    flagCountry: Algeria
+  - flagSprite: {fileID: -6179333960072420790, guid: af908e9e3e4c1c14d9e0aa66253b6f6a,
+      type: 3}
+    flagCountry: Andorra
+  - flagSprite: {fileID: -387426606644426454, guid: af908e9e3e4c1c14d9e0aa66253b6f6a,
+      type: 3}
+    flagCountry: Angola
+  - flagSprite: {fileID: -7824188379145895197, guid: af908e9e3e4c1c14d9e0aa66253b6f6a,
+      type: 3}
+    flagCountry: Antigua and Barbuda
+  - flagSprite: {fileID: -1918101290468473190, guid: af908e9e3e4c1c14d9e0aa66253b6f6a,
+      type: 3}
+    flagCountry: Argentina
+  - flagSprite: {fileID: -5437672768127679882, guid: af908e9e3e4c1c14d9e0aa66253b6f6a,
+      type: 3}
+    flagCountry: Armenia
+  - flagSprite: {fileID: 4214908738568669566, guid: af908e9e3e4c1c14d9e0aa66253b6f6a,
+      type: 3}
+    flagCountry: Australia
+  - flagSprite: {fileID: -5687277200052807867, guid: af908e9e3e4c1c14d9e0aa66253b6f6a,
+      type: 3}
+    flagCountry: Austria
+  - flagSprite: {fileID: 2888244177233510589, guid: af908e9e3e4c1c14d9e0aa66253b6f6a,
+      type: 3}
+    flagCountry: Azerbaijan
+  - flagSprite: {fileID: -8304372130615500472, guid: af908e9e3e4c1c14d9e0aa66253b6f6a,
+      type: 3}
+    flagCountry: Bahamas
+  - flagSprite: {fileID: -1358601052885918768, guid: af908e9e3e4c1c14d9e0aa66253b6f6a,
+      type: 3}
+    flagCountry: Bahrain
+  - flagSprite: {fileID: -7765664610674872429, guid: af908e9e3e4c1c14d9e0aa66253b6f6a,
+      type: 3}
+    flagCountry: Bangladesh
+  - flagSprite: {fileID: -8131448632226494705, guid: af908e9e3e4c1c14d9e0aa66253b6f6a,
+      type: 3}
+    flagCountry: Barbados
+  - flagSprite: {fileID: 7464911144824420981, guid: af908e9e3e4c1c14d9e0aa66253b6f6a,
+      type: 3}
+    flagCountry: Belarus
+  - flagSprite: {fileID: 3887857764612836400, guid: af908e9e3e4c1c14d9e0aa66253b6f6a,
+      type: 3}
+    flagCountry: Belgium
+  - flagSprite: {fileID: 2058062854030163997, guid: af908e9e3e4c1c14d9e0aa66253b6f6a,
+      type: 3}
+    flagCountry: Belize
+  - flagSprite: {fileID: -6273576464680377002, guid: af908e9e3e4c1c14d9e0aa66253b6f6a,
+      type: 3}
+    flagCountry: Benin
+  - flagSprite: {fileID: 4948408732924864439, guid: af908e9e3e4c1c14d9e0aa66253b6f6a,
+      type: 3}
+    flagCountry: Bhutan
+  - flagSprite: {fileID: 2162743685049323753, guid: af908e9e3e4c1c14d9e0aa66253b6f6a,
+      type: 3}
+    flagCountry: Bolivia
+  - flagSprite: {fileID: -282210824937419296, guid: af908e9e3e4c1c14d9e0aa66253b6f6a,
+      type: 3}
+    flagCountry: Bosnia and Herzegovina
+  - flagSprite: {fileID: -6383052699259528454, guid: af908e9e3e4c1c14d9e0aa66253b6f6a,
+      type: 3}
+    flagCountry: Botswana
+  - flagSprite: {fileID: 5481582062464773297, guid: af908e9e3e4c1c14d9e0aa66253b6f6a,
+      type: 3}
+    flagCountry: Brazil
+  - flagSprite: {fileID: -2641777650534046036, guid: af908e9e3e4c1c14d9e0aa66253b6f6a,
+      type: 3}
+    flagCountry: Brunei
+  - flagSprite: {fileID: -959407920380744881, guid: af908e9e3e4c1c14d9e0aa66253b6f6a,
+      type: 3}
+    flagCountry: Bulgaria
+  - flagSprite: {fileID: 1048390605878093694, guid: af908e9e3e4c1c14d9e0aa66253b6f6a,
+      type: 3}
+    flagCountry: Burkina Faso
+  - flagSprite: {fileID: -3337066881948710034, guid: af908e9e3e4c1c14d9e0aa66253b6f6a,
+      type: 3}
+    flagCountry: Burundi
+  - flagSprite: {fileID: 7306263108940665090, guid: af908e9e3e4c1c14d9e0aa66253b6f6a,
+      type: 3}
+    flagCountry: Capo Verde
+  - flagSprite: {fileID: 6932214265673973611, guid: af908e9e3e4c1c14d9e0aa66253b6f6a,
+      type: 3}
+    flagCountry: Cambodia
+  - flagSprite: {fileID: 2671431639732006489, guid: af908e9e3e4c1c14d9e0aa66253b6f6a,
+      type: 3}
+    flagCountry: Cameroon
+  - flagSprite: {fileID: 2147797267020382351, guid: af908e9e3e4c1c14d9e0aa66253b6f6a,
+      type: 3}
+    flagCountry: Canada
+  - flagSprite: {fileID: 1070218165707158878, guid: af908e9e3e4c1c14d9e0aa66253b6f6a,
+      type: 3}
+    flagCountry: Central African Republic
+  - flagSprite: {fileID: -5946721328336496202, guid: af908e9e3e4c1c14d9e0aa66253b6f6a,
+      type: 3}
+    flagCountry: Chad
+  - flagSprite: {fileID: -894449118756470046, guid: af908e9e3e4c1c14d9e0aa66253b6f6a,
+      type: 3}
+    flagCountry: Chile
+  - flagSprite: {fileID: -5413467106251953397, guid: af908e9e3e4c1c14d9e0aa66253b6f6a,
+      type: 3}
+    flagCountry: China
+  - flagSprite: {fileID: -4304663585327499613, guid: af908e9e3e4c1c14d9e0aa66253b6f6a,
+      type: 3}
+    flagCountry: Columbia
+  - flagSprite: {fileID: 6111792546631464260, guid: af908e9e3e4c1c14d9e0aa66253b6f6a,
+      type: 3}
+    flagCountry: Comoros
+  - flagSprite: {fileID: 4556641632994403514, guid: af908e9e3e4c1c14d9e0aa66253b6f6a,
+      type: 3}
+    flagCountry: Congo
+  - flagSprite: {fileID: 2527205444117845104, guid: af908e9e3e4c1c14d9e0aa66253b6f6a,
+      type: 3}
+    flagCountry: Republic of Congo
+  - flagSprite: {fileID: 5577577308286302056, guid: af908e9e3e4c1c14d9e0aa66253b6f6a,
+      type: 3}
+    flagCountry: Costa Rica
+  - flagSprite: {fileID: -4615861662621062813, guid: af908e9e3e4c1c14d9e0aa66253b6f6a,
+      type: 3}
+    flagCountry: Cote d'Ivoire
+  - flagSprite: {fileID: 1897514893105929678, guid: af908e9e3e4c1c14d9e0aa66253b6f6a,
+      type: 3}
+    flagCountry: Croatia
+  - flagSprite: {fileID: 4630485504179385513, guid: af908e9e3e4c1c14d9e0aa66253b6f6a,
+      type: 3}
+    flagCountry: Cuba
+  - flagSprite: {fileID: 7238808103685472286, guid: af908e9e3e4c1c14d9e0aa66253b6f6a,
+      type: 3}
+    flagCountry: Cyprus
+  - flagSprite: {fileID: -9147924424774753166, guid: af908e9e3e4c1c14d9e0aa66253b6f6a,
+      type: 3}
+    flagCountry: Czech Republic
+  - flagSprite: {fileID: 4637987109756577237, guid: af908e9e3e4c1c14d9e0aa66253b6f6a,
+      type: 3}
+    flagCountry: Denmark
+  - flagSprite: {fileID: 208119159337008464, guid: af908e9e3e4c1c14d9e0aa66253b6f6a,
+      type: 3}
+    flagCountry: Djibuti
+  - flagSprite: {fileID: -1629769668650575528, guid: af908e9e3e4c1c14d9e0aa66253b6f6a,
+      type: 3}
+    flagCountry: Dominica
+  - flagSprite: {fileID: -8369181959333216598, guid: af908e9e3e4c1c14d9e0aa66253b6f6a,
+      type: 3}
+    flagCountry: Dominican Republic
+  - flagSprite: {fileID: -5822117532084595055, guid: af908e9e3e4c1c14d9e0aa66253b6f6a,
+      type: 3}
+    flagCountry: Ecuador
+  - flagSprite: {fileID: 7542790891143546851, guid: af908e9e3e4c1c14d9e0aa66253b6f6a,
+      type: 3}
+    flagCountry: Egypth
+  - flagSprite: {fileID: 466727069567096094, guid: af908e9e3e4c1c14d9e0aa66253b6f6a,
+      type: 3}
+    flagCountry: El Salvador
+  - flagSprite: {fileID: -6694601672546537687, guid: af908e9e3e4c1c14d9e0aa66253b6f6a,
+      type: 3}
+    flagCountry: Equatorial Guinea
+  - flagSprite: {fileID: 8656486608961597544, guid: af908e9e3e4c1c14d9e0aa66253b6f6a,
+      type: 3}
+    flagCountry: Eritrea
+  - flagSprite: {fileID: 5544828427461895061, guid: af908e9e3e4c1c14d9e0aa66253b6f6a,
+      type: 3}
+    flagCountry: Estonia
+  - flagSprite: {fileID: -5316782251448945331, guid: af908e9e3e4c1c14d9e0aa66253b6f6a,
+      type: 3}
+    flagCountry: Eswatini
+  - flagSprite: {fileID: -8729435960266138936, guid: af908e9e3e4c1c14d9e0aa66253b6f6a,
+      type: 3}
+    flagCountry: Ethiopia
+  - flagSprite: {fileID: -3316097739934060962, guid: af908e9e3e4c1c14d9e0aa66253b6f6a,
+      type: 3}
+    flagCountry: Fiji
+  - flagSprite: {fileID: 4224443438569133583, guid: af908e9e3e4c1c14d9e0aa66253b6f6a,
+      type: 3}
+    flagCountry: Finland
+  - flagSprite: {fileID: 3279070721711510706, guid: af908e9e3e4c1c14d9e0aa66253b6f6a,
+      type: 3}
+    flagCountry: France
+  - flagSprite: {fileID: 6376563907915386473, guid: af908e9e3e4c1c14d9e0aa66253b6f6a,
+      type: 3}
+    flagCountry: Gabon
+  - flagSprite: {fileID: -4535845871673877645, guid: af908e9e3e4c1c14d9e0aa66253b6f6a,
+      type: 3}
+    flagCountry: Gambia
+  - flagSprite: {fileID: 6608301279987156098, guid: af908e9e3e4c1c14d9e0aa66253b6f6a,
+      type: 3}
+    flagCountry: Georgia
+  - flagSprite: {fileID: 7540207556038409240, guid: af908e9e3e4c1c14d9e0aa66253b6f6a,
+      type: 3}
+    flagCountry: Germany
+  - flagSprite: {fileID: 4356627312340706764, guid: af908e9e3e4c1c14d9e0aa66253b6f6a,
+      type: 3}
+    flagCountry: Ghana
+  - flagSprite: {fileID: 8945973421465693963, guid: af908e9e3e4c1c14d9e0aa66253b6f6a,
+      type: 3}
+    flagCountry: Greece
+  - flagSprite: {fileID: 5587971046903185512, guid: af908e9e3e4c1c14d9e0aa66253b6f6a,
+      type: 3}
+    flagCountry: Greenland
+  - flagSprite: {fileID: 6216111036417442771, guid: af908e9e3e4c1c14d9e0aa66253b6f6a,
+      type: 3}
+    flagCountry: Grenada
+  - flagSprite: {fileID: 1887846526393422289, guid: af908e9e3e4c1c14d9e0aa66253b6f6a,
+      type: 3}
+    flagCountry: Guatemala
+  - flagSprite: {fileID: 5188046203510671089, guid: af908e9e3e4c1c14d9e0aa66253b6f6a,
+      type: 3}
+    flagCountry: Guinea
+  - flagSprite: {fileID: 778676051287059461, guid: af908e9e3e4c1c14d9e0aa66253b6f6a,
+      type: 3}
+    flagCountry: Guinea-Bissau
+  - flagSprite: {fileID: 1659289173036151312, guid: af908e9e3e4c1c14d9e0aa66253b6f6a,
+      type: 3}
+    flagCountry: Guyana
+  - flagSprite: {fileID: -3552054272895023798, guid: af908e9e3e4c1c14d9e0aa66253b6f6a,
+      type: 3}
+    flagCountry: Haiti
+  - flagSprite: {fileID: 5076020835800963387, guid: af908e9e3e4c1c14d9e0aa66253b6f6a,
+      type: 3}
+    flagCountry: Honduras
+  - flagSprite: {fileID: 7482296554836079339, guid: af908e9e3e4c1c14d9e0aa66253b6f6a,
+      type: 3}
+    flagCountry: Hungary
+  - flagSprite: {fileID: -5727090605836108826, guid: af908e9e3e4c1c14d9e0aa66253b6f6a,
+      type: 3}
+    flagCountry: Iceland
+  - flagSprite: {fileID: -6956418492123255421, guid: af908e9e3e4c1c14d9e0aa66253b6f6a,
+      type: 3}
+    flagCountry: India
+  - flagSprite: {fileID: -988347610182856068, guid: af908e9e3e4c1c14d9e0aa66253b6f6a,
+      type: 3}
+    flagCountry: Indonesia
+  - flagSprite: {fileID: -7146315753182905176, guid: af908e9e3e4c1c14d9e0aa66253b6f6a,
+      type: 3}
+    flagCountry: Iran
+  - flagSprite: {fileID: 1293176016466666560, guid: af908e9e3e4c1c14d9e0aa66253b6f6a,
+      type: 3}
+    flagCountry: Iraq
+  - flagSprite: {fileID: -1714813356257376831, guid: af908e9e3e4c1c14d9e0aa66253b6f6a,
+      type: 3}
+    flagCountry: Ireland
+  - flagSprite: {fileID: -4907590637143044693, guid: af908e9e3e4c1c14d9e0aa66253b6f6a,
+      type: 3}
+    flagCountry: Isreal
+  - flagSprite: {fileID: -8344705953826144710, guid: af908e9e3e4c1c14d9e0aa66253b6f6a,
+      type: 3}
+    flagCountry: Italy
+  - flagSprite: {fileID: -5091943689290413685, guid: af908e9e3e4c1c14d9e0aa66253b6f6a,
+      type: 3}
+    flagCountry: Jamaica
+  - flagSprite: {fileID: 2756237203159053445, guid: af908e9e3e4c1c14d9e0aa66253b6f6a,
+      type: 3}
+    flagCountry: Japan
+  - flagSprite: {fileID: -1818013736999779222, guid: af908e9e3e4c1c14d9e0aa66253b6f6a,
+      type: 3}
+    flagCountry: Jordan
+  - flagSprite: {fileID: -8726308062991183081, guid: af908e9e3e4c1c14d9e0aa66253b6f6a,
+      type: 3}
+    flagCountry: Kazakhstan
+  - flagSprite: {fileID: 3243898142985066003, guid: af908e9e3e4c1c14d9e0aa66253b6f6a,
+      type: 3}
+    flagCountry: Kenya
+  - flagSprite: {fileID: 4169725055992370250, guid: af908e9e3e4c1c14d9e0aa66253b6f6a,
+      type: 3}
+    flagCountry: Kiribati
+  - flagSprite: {fileID: 2544094191546082517, guid: af908e9e3e4c1c14d9e0aa66253b6f6a,
+      type: 3}
+    flagCountry: Kosovo
+  - flagSprite: {fileID: -8626704424750781620, guid: af908e9e3e4c1c14d9e0aa66253b6f6a,
+      type: 3}
+    flagCountry: Kuwait
+  - flagSprite: {fileID: 6180663892213675401, guid: af908e9e3e4c1c14d9e0aa66253b6f6a,
+      type: 3}
+    flagCountry: Kyrystan
+  - flagSprite: {fileID: -2578728214561369810, guid: af908e9e3e4c1c14d9e0aa66253b6f6a,
+      type: 3}
+    flagCountry: Laos
+  - flagSprite: {fileID: 8994347413183436847, guid: af908e9e3e4c1c14d9e0aa66253b6f6a,
+      type: 3}
+    flagCountry: Latvia
+  - flagSprite: {fileID: -7007032307329566257, guid: af908e9e3e4c1c14d9e0aa66253b6f6a,
+      type: 3}
+    flagCountry: Lebanon
+  - flagSprite: {fileID: -2607100655152441098, guid: af908e9e3e4c1c14d9e0aa66253b6f6a,
+      type: 3}
+    flagCountry: Lesotho
+  - flagSprite: {fileID: -7574651504332437534, guid: af908e9e3e4c1c14d9e0aa66253b6f6a,
+      type: 3}
+    flagCountry: Liberia
+  - flagSprite: {fileID: -5031871800072491644, guid: af908e9e3e4c1c14d9e0aa66253b6f6a,
+      type: 3}
+    flagCountry: Libya
+  - flagSprite: {fileID: 5310329867531808909, guid: af908e9e3e4c1c14d9e0aa66253b6f6a,
+      type: 3}
+    flagCountry: Liechtenstein
+  - flagSprite: {fileID: 7368022828397296158, guid: af908e9e3e4c1c14d9e0aa66253b6f6a,
+      type: 3}
+    flagCountry: Lithuania
+  - flagSprite: {fileID: -1818782458301596304, guid: af908e9e3e4c1c14d9e0aa66253b6f6a,
+      type: 3}
+    flagCountry: Luxembourg
+  - flagSprite: {fileID: 4734490417780264225, guid: af908e9e3e4c1c14d9e0aa66253b6f6a,
+      type: 3}
+    flagCountry: Macedonia
+  - flagSprite: {fileID: 4848007648420214922, guid: af908e9e3e4c1c14d9e0aa66253b6f6a,
+      type: 3}
+    flagCountry: Madagascar
+  - flagSprite: {fileID: 3135587147634042435, guid: af908e9e3e4c1c14d9e0aa66253b6f6a,
+      type: 3}
+    flagCountry: Malawi
+  - flagSprite: {fileID: -8713355887901637967, guid: af908e9e3e4c1c14d9e0aa66253b6f6a,
+      type: 3}
+    flagCountry: Malaysia
+  - flagSprite: {fileID: 6186144729958645815, guid: af908e9e3e4c1c14d9e0aa66253b6f6a,
+      type: 3}
+    flagCountry: Maldives
+  - flagSprite: {fileID: 7673810008918585617, guid: af908e9e3e4c1c14d9e0aa66253b6f6a,
+      type: 3}
+    flagCountry: Mali
+  - flagSprite: {fileID: -6694601642469701186, guid: af908e9e3e4c1c14d9e0aa66253b6f6a,
+      type: 3}
+    flagCountry: Malta
+  - flagSprite: {fileID: 5024529591342724696, guid: af908e9e3e4c1c14d9e0aa66253b6f6a,
+      type: 3}
+    flagCountry: Marshall Islands
+  - flagSprite: {fileID: -6408625972930376204, guid: af908e9e3e4c1c14d9e0aa66253b6f6a,
+      type: 3}
+    flagCountry: Mauritania
+  - flagSprite: {fileID: 604135495034832608, guid: af908e9e3e4c1c14d9e0aa66253b6f6a,
+      type: 3}
+    flagCountry: Mauritius
+  - flagSprite: {fileID: 3711754384843363487, guid: af908e9e3e4c1c14d9e0aa66253b6f6a,
+      type: 3}
+    flagCountry: Mexico
+  - flagSprite: {fileID: 3214788370715022803, guid: af908e9e3e4c1c14d9e0aa66253b6f6a,
+      type: 3}
+    flagCountry: Micronesia
+  - flagSprite: {fileID: -4603042618669584810, guid: af908e9e3e4c1c14d9e0aa66253b6f6a,
+      type: 3}
+    flagCountry: Moldova
+  - flagSprite: {fileID: -7016828852727671023, guid: af908e9e3e4c1c14d9e0aa66253b6f6a,
+      type: 3}
+    flagCountry: Monaco
+  - flagSprite: {fileID: -4237890301459019134, guid: af908e9e3e4c1c14d9e0aa66253b6f6a,
+      type: 3}
+    flagCountry: Mongolia
+  - flagSprite: {fileID: 8694922267457506224, guid: af908e9e3e4c1c14d9e0aa66253b6f6a,
+      type: 3}
+    flagCountry: Montenegro
+  - flagSprite: {fileID: -5217849912420371629, guid: af908e9e3e4c1c14d9e0aa66253b6f6a,
+      type: 3}
+    flagCountry: Morocco
+  - flagSprite: {fileID: -1477909693831673025, guid: af908e9e3e4c1c14d9e0aa66253b6f6a,
+      type: 3}
+    flagCountry: Mozambique
+  - flagSprite: {fileID: -6072929733879911512, guid: af908e9e3e4c1c14d9e0aa66253b6f6a,
+      type: 3}
+    flagCountry: Myanmar
+  - flagSprite: {fileID: -3675700790128367072, guid: af908e9e3e4c1c14d9e0aa66253b6f6a,
+      type: 3}
+    flagCountry: Namibia
+  - flagSprite: {fileID: 6645590849855695677, guid: af908e9e3e4c1c14d9e0aa66253b6f6a,
+      type: 3}
+    flagCountry: Nauru
+  - flagSprite: {fileID: -8900871014770456978, guid: af908e9e3e4c1c14d9e0aa66253b6f6a,
+      type: 3}
+    flagCountry: Nepal
+  - flagSprite: {fileID: -50697424238273787, guid: af908e9e3e4c1c14d9e0aa66253b6f6a,
+      type: 3}
+    flagCountry: Netherlands
+  - flagSprite: {fileID: 5556664006908369333, guid: af908e9e3e4c1c14d9e0aa66253b6f6a,
+      type: 3}
+    flagCountry: New Zealand
+  - flagSprite: {fileID: -828246354425482895, guid: af908e9e3e4c1c14d9e0aa66253b6f6a,
+      type: 3}
+    flagCountry: Nicaragua
+  - flagSprite: {fileID: 1967589628759808903, guid: af908e9e3e4c1c14d9e0aa66253b6f6a,
+      type: 3}
+    flagCountry: Niger
+  - flagSprite: {fileID: 1195933580312545666, guid: af908e9e3e4c1c14d9e0aa66253b6f6a,
+      type: 3}
+    flagCountry: Nigeria
+  - flagSprite: {fileID: 8398838331272883036, guid: af908e9e3e4c1c14d9e0aa66253b6f6a,
+      type: 3}
+    flagCountry: North Korea
+  - flagSprite: {fileID: 8024528437290525485, guid: af908e9e3e4c1c14d9e0aa66253b6f6a,
+      type: 3}
+    flagCountry: Norway
+  - flagSprite: {fileID: -2205677050833025980, guid: af908e9e3e4c1c14d9e0aa66253b6f6a,
+      type: 3}
+    flagCountry: Oman
+  - flagSprite: {fileID: -8854495257165337064, guid: af908e9e3e4c1c14d9e0aa66253b6f6a,
+      type: 3}
+    flagCountry: Pakistan
+  - flagSprite: {fileID: 3313112181178552718, guid: af908e9e3e4c1c14d9e0aa66253b6f6a,
+      type: 3}
+    flagCountry: Palau
+  - flagSprite: {fileID: -9162718234399464957, guid: af908e9e3e4c1c14d9e0aa66253b6f6a,
+      type: 3}
+    flagCountry: Palestine
+  - flagSprite: {fileID: 3122525551698148495, guid: af908e9e3e4c1c14d9e0aa66253b6f6a,
+      type: 3}
+    flagCountry: Panama
+  - flagSprite: {fileID: 2007402113148221437, guid: af908e9e3e4c1c14d9e0aa66253b6f6a,
+      type: 3}
+    flagCountry: Papua New Guinea
+  - flagSprite: {fileID: -4733961812861165268, guid: af908e9e3e4c1c14d9e0aa66253b6f6a,
+      type: 3}
+    flagCountry: Paraguay
+  - flagSprite: {fileID: -7343151963228102927, guid: af908e9e3e4c1c14d9e0aa66253b6f6a,
+      type: 3}
+    flagCountry: Peru
+  - flagSprite: {fileID: 2617708400803221522, guid: af908e9e3e4c1c14d9e0aa66253b6f6a,
+      type: 3}
+    flagCountry: Philippines
+  - flagSprite: {fileID: -4358116007124201100, guid: af908e9e3e4c1c14d9e0aa66253b6f6a,
+      type: 3}
+    flagCountry: Poland
+  - flagSprite: {fileID: 8134456952815708684, guid: af908e9e3e4c1c14d9e0aa66253b6f6a,
+      type: 3}
+    flagCountry: Portugal
+  - flagSprite: {fileID: -5328874921100938054, guid: af908e9e3e4c1c14d9e0aa66253b6f6a,
+      type: 3}
+    flagCountry: Qatar
+  - flagSprite: {fileID: 445025341258584167, guid: af908e9e3e4c1c14d9e0aa66253b6f6a,
+      type: 3}
+    flagCountry: Romania
+  - flagSprite: {fileID: 8462882822699833188, guid: af908e9e3e4c1c14d9e0aa66253b6f6a,
+      type: 3}
+    flagCountry: Russia
+  - flagSprite: {fileID: -5260722030121622220, guid: af908e9e3e4c1c14d9e0aa66253b6f6a,
+      type: 3}
+    flagCountry: Rwanda
+  - flagSprite: {fileID: 6069214470627582920, guid: af908e9e3e4c1c14d9e0aa66253b6f6a,
+      type: 3}
+    flagCountry: Bazinga
+  - flagSprite: {fileID: -8157763584332920123, guid: af908e9e3e4c1c14d9e0aa66253b6f6a,
+      type: 3}
+    flagCountry: Saint Lucia
+  - flagSprite: {fileID: -37939809095632546, guid: af908e9e3e4c1c14d9e0aa66253b6f6a,
+      type: 3}
+    flagCountry: Grenadines
+  - flagSprite: {fileID: 2203306343104647878, guid: af908e9e3e4c1c14d9e0aa66253b6f6a,
+      type: 3}
+    flagCountry: Samoa
+  - flagSprite: {fileID: -8306810332488398799, guid: af908e9e3e4c1c14d9e0aa66253b6f6a,
+      type: 3}
+    flagCountry: San Marino
+  - flagSprite: {fileID: 6042755096138670885, guid: af908e9e3e4c1c14d9e0aa66253b6f6a,
+      type: 3}
+    flagCountry: Sao Tome and Principe
+  - flagSprite: {fileID: -1601764502286027842, guid: af908e9e3e4c1c14d9e0aa66253b6f6a,
+      type: 3}
+    flagCountry: Saudi Arabia
+  - flagSprite: {fileID: -3282393057616430070, guid: af908e9e3e4c1c14d9e0aa66253b6f6a,
+      type: 3}
+    flagCountry: Senegal
+  - flagSprite: {fileID: 3653736385304455746, guid: af908e9e3e4c1c14d9e0aa66253b6f6a,
+      type: 3}
+    flagCountry: Serbia
+  - flagSprite: {fileID: -6323140936887160094, guid: af908e9e3e4c1c14d9e0aa66253b6f6a,
+      type: 3}
+    flagCountry: Seychelles
+  - flagSprite: {fileID: 6367156095932355161, guid: af908e9e3e4c1c14d9e0aa66253b6f6a,
+      type: 3}
+    flagCountry: Sierra Leone
+  - flagSprite: {fileID: -7608836827708121431, guid: af908e9e3e4c1c14d9e0aa66253b6f6a,
+      type: 3}
+    flagCountry: Singapore
+  - flagSprite: {fileID: 6734931993099454590, guid: af908e9e3e4c1c14d9e0aa66253b6f6a,
+      type: 3}
+    flagCountry: Slovakia
+  - flagSprite: {fileID: 852585750959684352, guid: af908e9e3e4c1c14d9e0aa66253b6f6a,
+      type: 3}
+    flagCountry: Slovenia
+  - flagSprite: {fileID: 5161886263228548934, guid: af908e9e3e4c1c14d9e0aa66253b6f6a,
+      type: 3}
+    flagCountry: Solomon ISland
+  - flagSprite: {fileID: -2576166496499759970, guid: af908e9e3e4c1c14d9e0aa66253b6f6a,
+      type: 3}
+    flagCountry: Somalia
+  - flagSprite: {fileID: 7682171213328202361, guid: af908e9e3e4c1c14d9e0aa66253b6f6a,
+      type: 3}
+    flagCountry: South Africa
+  - flagSprite: {fileID: -6107447806044641569, guid: af908e9e3e4c1c14d9e0aa66253b6f6a,
+      type: 3}
+    flagCountry: South Korea
+  - flagSprite: {fileID: -2857662619563057269, guid: af908e9e3e4c1c14d9e0aa66253b6f6a,
+      type: 3}
+    flagCountry: South Sudan
+  - flagSprite: {fileID: -8097265983446933538, guid: af908e9e3e4c1c14d9e0aa66253b6f6a,
+      type: 3}
+    flagCountry: Spain
+  - flagSprite: {fileID: 3381480521348601, guid: af908e9e3e4c1c14d9e0aa66253b6f6a,
+      type: 3}
+    flagCountry: Sri Lanka
+  - flagSprite: {fileID: -1782157465534735952, guid: af908e9e3e4c1c14d9e0aa66253b6f6a,
+      type: 3}
+    flagCountry: Sudan
+  - flagSprite: {fileID: -2622094831174333473, guid: af908e9e3e4c1c14d9e0aa66253b6f6a,
+      type: 3}
+    flagCountry: Suriname
+  - flagSprite: {fileID: -2450195821745908206, guid: af908e9e3e4c1c14d9e0aa66253b6f6a,
+      type: 3}
+    flagCountry: Sweden
+  - flagSprite: {fileID: -2595648773109414300, guid: af908e9e3e4c1c14d9e0aa66253b6f6a,
+      type: 3}
+    flagCountry: Switzerland
+  - flagSprite: {fileID: 6320485426824011627, guid: af908e9e3e4c1c14d9e0aa66253b6f6a,
+      type: 3}
+    flagCountry: Syria
+  - flagSprite: {fileID: -6259772884966522780, guid: af908e9e3e4c1c14d9e0aa66253b6f6a,
+      type: 3}
+    flagCountry: Taiwan
+  - flagSprite: {fileID: 6107532935712649157, guid: af908e9e3e4c1c14d9e0aa66253b6f6a,
+      type: 3}
+    flagCountry: Tajikistan
+  - flagSprite: {fileID: 5554775448243169648, guid: af908e9e3e4c1c14d9e0aa66253b6f6a,
+      type: 3}
+    flagCountry: Tanzania
+  - flagSprite: {fileID: -8227806671971461186, guid: af908e9e3e4c1c14d9e0aa66253b6f6a,
+      type: 3}
+    flagCountry: Thiland
+  - flagSprite: {fileID: 5557312305820971817, guid: af908e9e3e4c1c14d9e0aa66253b6f6a,
+      type: 3}
+    flagCountry: Timor Leste
+  - flagSprite: {fileID: -995883635096060710, guid: af908e9e3e4c1c14d9e0aa66253b6f6a,
+      type: 3}
+    flagCountry: Togo
+  - flagSprite: {fileID: -3950823122591853197, guid: af908e9e3e4c1c14d9e0aa66253b6f6a,
+      type: 3}
+    flagCountry: Tonga
+  - flagSprite: {fileID: 3232661164421697214, guid: af908e9e3e4c1c14d9e0aa66253b6f6a,
+      type: 3}
+    flagCountry: Trinidad and Tobago
+  - flagSprite: {fileID: 1117828164191855226, guid: af908e9e3e4c1c14d9e0aa66253b6f6a,
+      type: 3}
+    flagCountry: Tunisia
+  - flagSprite: {fileID: 5766020128633319373, guid: af908e9e3e4c1c14d9e0aa66253b6f6a,
+      type: 3}
+    flagCountry: Turkey
+  - flagSprite: {fileID: -8845932146975161374, guid: af908e9e3e4c1c14d9e0aa66253b6f6a,
+      type: 3}
+    flagCountry: Turkmenistan
+  - flagSprite: {fileID: -6670318843304605728, guid: af908e9e3e4c1c14d9e0aa66253b6f6a,
+      type: 3}
+    flagCountry: Tuvalu
+  - flagSprite: {fileID: -8822737650096867548, guid: af908e9e3e4c1c14d9e0aa66253b6f6a,
+      type: 3}
+    flagCountry: Uganda
+  - flagSprite: {fileID: -6323441614619730125, guid: af908e9e3e4c1c14d9e0aa66253b6f6a,
+      type: 3}
+    flagCountry: Ukraine
+  - flagSprite: {fileID: 333792858464194646, guid: af908e9e3e4c1c14d9e0aa66253b6f6a,
+      type: 3}
+    flagCountry: United Arab Emirates
+  - flagSprite: {fileID: 196231639588322029, guid: af908e9e3e4c1c14d9e0aa66253b6f6a,
+      type: 3}
+    flagCountry: United Kingdom
+  - flagSprite: {fileID: -2776779274368794618, guid: af908e9e3e4c1c14d9e0aa66253b6f6a,
+      type: 3}
+    flagCountry: United States
+  - flagSprite: {fileID: 638284087059644513, guid: af908e9e3e4c1c14d9e0aa66253b6f6a,
+      type: 3}
+    flagCountry: Uruguay
+  - flagSprite: {fileID: 7297063084908805950, guid: af908e9e3e4c1c14d9e0aa66253b6f6a,
+      type: 3}
+    flagCountry: Uzbekistan
+  - flagSprite: {fileID: 6868844651021952682, guid: af908e9e3e4c1c14d9e0aa66253b6f6a,
+      type: 3}
+    flagCountry: Vanuatu
+  - flagSprite: {fileID: 4175474801321973686, guid: af908e9e3e4c1c14d9e0aa66253b6f6a,
+      type: 3}
+    flagCountry: Vatican City
+  - flagSprite: {fileID: 4868830519337779901, guid: af908e9e3e4c1c14d9e0aa66253b6f6a,
+      type: 3}
+    flagCountry: Venezuela
+  - flagSprite: {fileID: -2307010520059527232, guid: af908e9e3e4c1c14d9e0aa66253b6f6a,
+      type: 3}
+    flagCountry: Vietnam
+  - flagSprite: {fileID: 3787897799981708633, guid: af908e9e3e4c1c14d9e0aa66253b6f6a,
+      type: 3}
+    flagCountry: Yemen
+  - flagSprite: {fileID: -4965142254677909111, guid: af908e9e3e4c1c14d9e0aa66253b6f6a,
+      type: 3}
+    flagCountry: Zambia
+  - flagSprite: {fileID: 9147864138776162798, guid: af908e9e3e4c1c14d9e0aa66253b6f6a,
+      type: 3}
+    flagCountry: Zimbabwe
